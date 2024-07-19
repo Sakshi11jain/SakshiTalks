@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            background-image: url("images/bg1.jpg");
+            background-size: cover;
+            backdrop-filter: blur(5px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-sizing: border-box;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+            width: 80%;
+            max-width: 600px; /* Set a maximum width for better readability on smaller screens */
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        
+        .text {
+            flex: 1 0 70%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            font-size: 60px;
+            color: white;
+        }
+
+        a{
+            color:rgb(255, 178, 191);
+        }
+
+        /* Media query for small screens */
+        @media (max-width: 600px) {
+            .box {
+                font-size: 20px; /* Adjust the font size for smaller screens */
+                padding: 10px; /* Reduce the padding for better spacing */
+            }
+
+            h1 {
+                font-size: 40px; /* Reduce the heading font size for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="text">
+            <h1>Sakshi Talks Blogs</h1>
+            <p>Read blogs mainly related to human and their life.</p>
+            <p>Launched in 2023.</p>
+            <p>Made with technologies: HTML, CSS.</p>
+            <p>In the future, you can see more advanced features and exciting blogs.</p>
+            <p>Please do visit <a href="https://pracview.netlify.app/">Pracview</a> once, if you want to practice mock interviews.</p>
+            <p>"SAKSHI JAIN"</p>
+        </div>
+    </div>
+</body>
+</html>
